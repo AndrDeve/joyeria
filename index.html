@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <title>Jewels</title>
+
+    <!-- font awesome cdn link ICONOS DE HAMBURGUESA Y LA X  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a href="#" target="_blank" class="pulse"><i class="fa fa-phone"></i></a>
+
+    <!--inicio header-->
+    <header class="header">
+
+        <div class="header-top">
+            <p>Contáctanos: <a href="#" target="_blank">+55 555 55 55 55</a></p>
+        </div>
+
+        <div class="header-center">
+           <div class="header-center-items">
+               <h1>Jewels</h1>
+
+               <div id="menu-btn" class="fas fa-bars"></div>
+
+            <nav class="navbar">
+                <a href="#inicio">Inicio</a>
+                <a href="#acerca">Sobre nosotros</a>
+                <a href="#pulseras">Pulseras</a>
+                <a href="#collares">Collares</a>
+                <a href="#aretes">Aretes</a>
+                <a href="#redes">Redes sociales</a>
+            </nav>
+           </div>
+        </div>
+    </header>
+    <!--final header-->
+
+    <!--inicio slider-->
+    <main>
+        <section class="home" id="home">
+
+            <div class="swiper home-slider" id="inicio"> <!--este swiper es de la página y la enlazamos con el script del final-->
+    
+                <div class="swiper-wrapper">
+    
+                    <div class="swiper-slide slide" style="background: url(img/pulseras.png) no-repeat;">
+                        <div class="content">
+                            <h3>Pulseras</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam unde aliquam eos qui magni dolorum.</p>
+                            <a href="#" class="btn">Contacto</a>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide slide" style="background: url(img/collar.png) no-repeat;">
+                        <div class="content">
+                            <h3>Collares</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptates repellat sunt neque accusamus ex.</p>
+                            <a href="#" class="btn">Contacto</a>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide slide" style="background: url(img/aretes.png) no-repeat;">
+                        <div class="content">
+                            <h3>Aretes</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni quisquam, ut eum dicta consequatur.</p>
+                            <a href="#" class="btn">Contacto</a>
+                        </div>
+                    </div>
+    
+                </div>
+    
+                <div class="swiper-pagination"></div>
+            </div>
+    
+        </section>
+        <!--final slider-->
+    
+        <!--inicio iconos-->
+        <section class="section">
+            <div class="container-iconos">
+                <div class="iconos-item">
+                    <img src="img/ico-truck.png" alt="">
+                    <div class="ico-textos">
+                        <span>Free Shipping</span>
+                        <p>Envíos gratis a todo el país</p>
+                    </div>
+                </div>
+                <div class="iconos-item">
+                    <img src="img/ico-card.png" alt="">
+                    <div class="ico-textos">
+                        <span>3 cuotas sin interés</span>
+                        <p>Llevate eso que tanto quieres, págalo en <br> 3 cuotas sin interés</p>
+                    </div>
+                    
+                </div>
+                <div class="iconos-item">
+                    <img src="img/ico-label.png" class="img-modificar" alt="">
+                    <div class="ico-textos">
+                        <span>Precio amigable</span>
+                        <p>Garantizado</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--final iconos-->
+
+        <!--inicio acerca de mi-->
+        <section class="acerca-de-mi" id="acerca">
+            <div class="container-acerca">
+                <div class="img">
+                    <figure>
+                        <img src="img/joya.jpg" alt="">
+                    </figure>
+                </div>
+                <div class="textos-acerca">
+                    <h2>Un poco de nosotros</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat minus, nihil,veniam molestiae voluptatibus natus obcaecati odit sequi et dicta dolore tenetur labore! <br> <p>Ad,tempore iure natus, quis adipisci maiores et aspernatur aut tenetur excepturi animi perspiciatis officia in saepe numquam unde neque assumenda sequi quaerat reprehenderit? In <br> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.rerum ipsum inventore qui mollitia odio saepe in! Earum voluptatem a error ratione, impedit autem laudantium quisquam saepe officia sunt odio laboriosam deserunt?</p></p>.</p>
+                </div>
+            </div>
+        </section>
+        <!--final acerca de mi-->
+
+        <!--inicio pulseras-->
+        <section class="cosmeticos" id="pulseras">
+            <h2 class="titulos"><span>Pulseras</span></h2>
+
+            <div class="contenedor-productos">
+                <div class="contenedor">
+                    <figure>
+                        <img src="img/pulseras.jpg" class="img-welcome" alt="">
+                    </figure>
+                    <div class="textos">
+                        <span id="ref1">ref:1</span>
+                        <p id="r1">Nombre del producto</p>
+                    </div>
+                    <span id="precio1">$11.000</span> <br>
+                    <button id="submit1">Comprar</button>
+                </div>
+
+                <div class="contenedor">
+                    <figure>
+                        <img src="img/pulseras.jpg" class="img-welcome" alt="">
+                    </figure>
+                    <div class="textos">
+                        <span id="ref2">ref:2</span>
+                        <p id="r2">Nombre del producto</p>
+                    </div>
+                    <span id="precio2">$11.000</span> <br>
+                    <button id="submit2">Comprar</button>
+                </div>
+
+                <div class="contenedor">
+                    <figure>
+                        <img src="img/pulseras.jpg" class="img-welcome" alt="">
+                    </figure>
+                    <div class="textos">
+                        <span id="ref3">ref:3</span>
+                        <p id="r3">Nombre del producto</p>
+                    </div>
+                    <span id="precio3">$11.000</span> <br>
+                    <button id="submit3">Comprar</button>
+                </div>
+
+                <div class="contenedor">
+                    <figure>
+                        <img src="img/pulseras.jpg" class="img-welcome" alt="">
+                    </figure>
+                    <div class="textos">
+                        <span id="ref4">ref:4</span>
+                        <p id="r4">Nombre del producto</p>
+                    </div>
+                    <span id="precio4">$11.000</span> <br>
+                    <button id="submit4">Comprar</button>
+                </div>
+
+                <div class="contenedor">
+                    <figure>
+                        <img src="img/pulseras.jpg" class="img-welcome" alt="">
+                    </figure>
+                    <div class="textos">
+                        <span id="ref5">ref:5</span>
+                        <p id="r5">Nombre del producto</p>
+                    </div>
+                    <span id="precio5">$11.000</span> <br>
+                    <button id="submit5">Comprar</button>
+                </div>
+
+                <div class="contenedor">
+                    <figure>
+                        <img src="img/pulseras.jpg" class="img-welcome" alt="">
+                    </figure>
+                    <div class="textos">
+                        <span id="ref6">ref:6</span>
+                        <p id="r6">Nombre del producto</p>
+                    </div>
+                    <span id="precio6">$11.000</span> <br>
+                    <button id="submit6">Comprar</button>
+                </div>
+            </div>
+        </section>
+        
+        <!--inicio collares-->
+        <section class="cosmeticos peluches" id="collares">
+            <h2 class="titulos"><span>Collares</span></h2>
+
+            <div class="contenedor-productos">
+                <div class="contenedor">
+                    <figure>
+                        <img src="img/collares.jpg" class="img-welcome" alt="">
+                    </figure>
+                    <div class="textos">
+                        <span id="ref7">ref:7</span>
+                        <p id="r7">Nombre del producto</p>
+                    </div>
+                    <span id="precio7">$11.000</span> <br>
+                    <button id="submit7">Comprar</button>
+                </div>
+
+                <div class="contenedor">
+                    <figure>
+                        <img src="img/collares.jpg" class="img-welcome" alt="">
+                    </figure>
+                    <div class="textos">
+                        <span id="ref8">ref:8</span>
+                        <p id="r8">Nombre del producto</p>
+                    </div>
+                    <span id="precio8">$11.000</span> <br>
+                    <button id="submit8">Comprar</button>
+                </div>
+
+                <div class="contenedor">
+                    <figure>
+                        <img src="img/collares.jpg" class="img-welcome" alt="">
+                    </figure>
+                    <div class="textos">
+                        <span id="ref9">ref:9</span>
+                        <p id="r9">Nombre del producto</p>
+                    </div>
+                    <span id="precio9">$11.000</span> <br>
+                    <button id="submit9">Comprar</button>
+                </div>
+
+                <div class="contenedor">
+                    <figure>
+                        <img src="img/collares.jpg" class="img-welcome" alt="">
+                    </figure>
+                    <div class="textos">
+                        <span id="ref10">ref:10</span>
+                        <p id="r10">Nombre del producto</p>
+                    </div>
+                    <span id="precio10">$11.000</span> <br>
+                    <button id="submit10">Comprar</button>
+                </div>
+
+                <div class="contenedor">
+                    <figure>
+                        <img src="img/collares.jpg" class="img-welcome" alt="">
+                    </figure>
+                    <div class="textos">
+                        <span id="ref11">ref:11</span>
+                        <p id="r11">Nombre del producto</p>
+                    </div>
+                    <span id="precio11">$11.000</span> <br>
+                    <button id="submit11">Comprar</button>
+                </div>
+
+                <div class="contenedor">
+                    <figure>
+                        <img src="img/collares.jpg" class="img-welcome" alt="">
+                    </figure>
+                    <div class="textos">
+                        <span id="ref12">ref:12</span>
+                        <p id="r12">Nombre del producto</p>
+                    </div>
+                    <span id="precio12">$11.000</span> <br>
+                    <button id="submit12">Comprar</button>
+                </div>
+            </div>
+        </section>
+         <!--final collares-->
+
+         <!-- inicio aretes -->
+         <section class="cosmeticos peluches" id="aretes">
+            <h2 class="titulos"><span>Aretes</span></h2>
+
+            <div class="contenedor-productos">
+                <div class="contenedor">
+                    <figure>
+                        <img src="img/aretes.jpg" class="img-welcome" alt="">
+                    </figure>
+                    <div class="textos">
+                        <span id="ref7">ref:13</span>
+                        <p id="r7">Nombre del producto</p>
+                    </div>
+                    <span id="precio7">$11.000</span> <br>
+                    <button id="submit7">Comprar</button>
+                </div>
+
+                <div class="contenedor">
+                    <figure>
+                        <img src="img/aretes.jpg" class="img-welcome" alt="">
+                    </figure>
+                    <div class="textos">
+                        <span id="ref8">ref:14</span>
+                        <p id="r8">Nombre del producto</p>
+                    </div>
+                    <span id="precio8">$11.000</span> <br>
+                    <button id="submit8">Comprar</button>
+                </div>
+
+                <div class="contenedor">
+                    <figure>
+                        <img src="img/aretes.jpg" class="img-welcome" alt="">
+                    </figure>
+                    <div class="textos">
+                        <span id="ref9">ref:15</span>
+                        <p id="r9">Nombre del producto</p>
+                    </div>
+                    <span id="precio9">$11.000</span> <br>
+                    <button id="submit9">Comprar</button>
+                </div>
+
+                <div class="contenedor">
+                    <figure>
+                        <img src="img/aretes.jpg" class="img-welcome" alt="">
+                    </figure>
+                    <div class="textos">
+                        <span id="ref10">ref:16</span>
+                        <p id="r10">Nombre del producto</p>
+                    </div>
+                    <span id="precio10">$11.000</span> <br>
+                    <button id="submit10">Comprar</button>
+                </div>
+
+                <div class="contenedor">
+                    <figure>
+                        <img src="img/aretes.jpg" class="img-welcome" alt="">
+                    </figure>
+                    <div class="textos">
+                        <span id="ref11">ref:17</span>
+                        <p id="r11">Nombre del producto</p>
+                    </div>
+                    <span id="precio11">$11.000</span> <br>
+                    <button id="submit11">Comprar</button>
+                </div>
+
+                <div class="contenedor">
+                    <figure>
+                        <img src="img/aretes.jpg" class="img-welcome" alt="">
+                    </figure>
+                    <div class="textos">
+                        <span id="ref12">ref:18</span>
+                        <p id="r12">Nombre del producto</p>
+                    </div>
+                    <span id="precio12">$11.000</span> <br>
+                    <button id="submit12">Comprar</button>
+                </div>
+            </div>
+        </section>
+        <!-- final aretes -->
+        <section class="imagen-light">
+            <!-- <img src="img/close.svg" alt="" class="close"> x para cerrar -->
+            <img src="" alt="" class="agregar-imagen">
+        </section>
+
+        <section class="cosmeticos redes-sociales" id="redes">
+            <h2 class="titulos"><span>Síguenos para más accesorios</span></h2>
+            <div class="items-redes">
+                <a href="#" target="_blank"><img src="img/logo-instagram.png" alt="logo instagram">Instagram</a>
+                <!-- <a href="https://t.me/thebeautyhair_45" target="_blank"><img src="img/logo-telegram.png"alt="">Telegram</a> -->
+                <a href="" target="_blank"><img src="img/logo-facebook.png" alt="logo facebook">Facebook</a>
+            </div>
+
+
+
+            <div class="wrap scroll">
+                <div class="" id="escoge-un-producto"></div>
+                <!-- <a href="pdf/TBH-Catálogo.pdf" class="animate__animated animate__headShake animate__infinite descarga" download="">Descarga Catálogo</a> -->
+                <h3>Escoge un producto</h3>
+                <div class="store-wrapper">
+                    <div class="category_list">
+                        <a href="#escoge-un-producto" class="category_item" category="all">Todo</a>
+                        <!-- <a href="#escoge-un-producto" class="category_item" category="bolsos">Bolsos</a> -->
+                        <a href="#escoge-un-producto" class="category_item" category="paletas">Ejemplo</a>
+                        <a href="#escoge-un-producto" class="category_item" category="pulseras">Ejemplo</a>
+                        <a href="#escoge-un-producto" class="category_item" category="mascarillas">Ejemplo</a>
+                        <a href="#escoge-un-producto" class="category_item" category="accesorios">Ejemplo</a>
+                        <!-- <a href="pdf/TBH-Catálogo.pdf" class="animate__animated animate__headShake animate__infinite category_item descarga" download="">Descarga Catálogo</a> -->
+                    </div>
+
+                    <section class="products-list">
+                        <div class="product-item" category="paletas">
+                            <img src="img/mas.jpg" class="img-welcome" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+                        <div class="product-item" category="paletas">
+                            <img src="img/mas.jpg" class="img-welcome" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+                        
+                        <div class="product-item" category="pulseras">
+                            <img src="img/mas.jpg" class="img-welcome" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+                        <div class="product-item" category="pulseras">
+                            <img src="img/mas.jpg" class="img-welcome" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div> 
+                        
+
+
+
+                        <div class="product-item" category="accesorios">
+                            <img src="img/mas1.jpg" class="img-welcome" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+                        <div class="product-item" category="accesorios">
+                            <img src="img/mas1.jpg" class="img-welcome" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+                        <div class="product-item" category="accesorios">
+                            <img src="img/mas1.jpg" class="img-welcome" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+                        <div class="product-item" category="accesorios">
+                            <img src="img/mas1.jpg" class="img-welcome" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+
+                        <div class="product-item" category="accesorios">
+                            <img src="img/mas1.jpg" class="img-welcome" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+                        <div class="product-item" category="accesorios">
+                            <img src="img/mas.jpg" class="img-welcome" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+                        <div class="product-item" category="accesorios">
+                            <img src="img/mas.jpg" class="img-welcome" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+                        <div class="product-item" category="accesorios">
+                            <img src="img/mas.jpg" class="img-welcome" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+
+
+
+                        <div class="product-item" category="paletas">
+                            <img src="img/mas1.jpg" class="img-welcome" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+                        <div class="product-item" category="paletas">
+                            <img src="img/mas1.jpg" class="img-welcome" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+                        <!-- <div class="product-item" category="bolsos">
+                            <img src="img/bolso1.jpg" alt="" >
+                            <a href="#">Hermosos bolsos</a>
+                        </div>
+                        <div class="product-item" category="bolsos">
+                            <img src="img/bolso3.jpg" alt="" >
+                            <a href="#">Hermosos bolsos</a>
+                        </div> -->
+
+
+                        
+                        <div class="product-item" category="pulseras">
+                            <img src="img/mas.jpg" class="img-welcome" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>  
+                        <div class="product-item" category="pulseras">
+                            <img src="img/mas.jpg" class="img-welcome" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>                 
+                          
+                        <!-- <div class="product-item" category="bolsos">
+                            <img src="img/bolso.jpg" alt="" >
+                            <a href="#">Hermosos bolsos</a>
+                        </div>
+                        <div class="product-item" category="bolsos">
+                            <img src="img/bolso2.jpg" alt="" >
+                            <a href="#">Hermosos bolsos</a>
+                        </div>   -->
+
+                        
+                        
+                        <div class="product-item" category="mascarillas">
+                            <img src="img/mas1.jpg" class="img-welcome" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+                        <div class="product-item" category="mascarillas">
+                            <img src="img/mas1.jpg" class="img-welcome" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+                        <div class="product-item" category="mascarillas">
+                            <img src="img/mas1.jpg" class="img-welcome" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+                        <div class="product-item" category="mascarillas">
+                            <img src="img/mas1.jpg" class="img-welcome" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-items">
+                <div class="interes">
+                    <span>Datos de interés</span>
+                    <p>Envíos a todo el país</p>
+                    <p>Llevate eso que tanto quieres, <br> págalo en 3 cuotas sin interés </p>
+                    <p>Precio amigable <br> garantizado</p>
+                </div>
+
+                <div class="enlaces">
+                    <span>Enlaces</span>
+                    <a href="#inicio">Inicio</a>
+                    <a href="#acerca">Sobre nosotros</a>
+                    <a href="#pulseras">Pulseras</a>
+                    <a href="#collares">Collares</a>
+                    <a href="#aretes">Aretes</a>
+                </div>
+
+                <div class="footer-redes-sociales">
+                    <span>Redes sociales</span>
+                    <a href="#s" target="_blank"><img src="img/logo-instagram.png" alt="">Instagram</a>
+                    <a href="#" target="_blank"><img src="img/logo-facebook.png" alt="">Facebook</a>
+                    <a href="#" target="_blank"><img src="img/logo-wpp.png" alt="">Whatsapp</a>
+                    
+                </div>
+                <!-- <div class="footer-wpp">
+                    <span>Whatsapp</span>
+                    <div class="wpp">
+                        <img src="img/logo-wpp.png" alt="">
+                        <a href="https://api.whatsapp.com/send?phone=593997280384&text=hola,%20en%20qu%C3%A9%20te%20podemos%20ayudar?" target="_blank">0997280384</a>
+                    </div>
+                    <div class="wpp">
+                        <img src="img/logo-wpp.png" alt="">
+                        <a href="https://api.whatsapp.com/send?phone=593987133157&text=hola,%20en%20qu%C3%A9%20te%20podemos%20ayudar?" target="_blank">0987133157</a>
+                    </div>
+                </div> -->
+                <!-- <div class="footer-telegram">
+                    <span>Únete a nuestro canal</span>
+                    <a href="https://t.me/thebeautyhair_45" target="_blank"><img src="img/logo-telegram.png" alt=""> Telegram</a>
+                </div> -->
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/lightbox.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/compras-cosmeticos.js"></script>
+    <script src="js/compras-peluches.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.js"></script>
+</body>
+</html>
