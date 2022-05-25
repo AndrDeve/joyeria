@@ -680,6 +680,16 @@ footer {
   color: #fff;
 }
 
+footer .footer-final {
+  background: #aa5161;
+}
+
+footer .footer-final p {
+  padding: 1rem 0;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
 footer .footer {
   padding: 1.5rem 6%;
 }
